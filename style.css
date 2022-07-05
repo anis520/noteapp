@@ -154,6 +154,7 @@ html,body{
         justify-content: center;
     align-items: center;
     display: flex;
+    background-color: rgba(205, 255, 232, 0.336);
 }
 body{
     display: block;
