@@ -170,8 +170,11 @@ body{
     border-radius: 5px;
     display: inline-block;
     margin-top: -7px;
-
+    width: 305px;
+    
 }
+
+
 .add i{
     font-size: 20px;
     color: blueviolet;
