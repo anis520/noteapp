@@ -1,4 +1,5 @@
-html,body{
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Courgette&family=League+Gothic&family=Pacifico&family=Titan+One&display=swap');
+ html,body{
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -147,7 +148,7 @@ input:focus{
 
 @media screen and (max-width: 550px){
 
-
+  
 
 html,body{
      margin: 10px;
@@ -169,6 +170,8 @@ body{
     background-color:blueviolet;
     padding:5px;
     border-radius: 5px;
+    font-family: 'Cookie', cursive;
+
     display: inline-block;
     margin-top: -7px;
     width: 305px;
@@ -253,13 +256,13 @@ input:focus{
     
 }
 .add3 input{
-   color: azure;
-   background-color: blueviolet;
-   border: none;
-   width: 100%;
-   height: 100%;
-   font-size: 15px;
-   
+    font-family: 'Titan One', cursive;    color: azure;
+    background-color: blueviolet;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    
 }
 
  .output{
@@ -270,8 +273,8 @@ input:focus{
    grid-template-columns:1fr ;
      height: auto;
      width:100% ;
-     background-color: aqua;
-     border: 2px solid yellowgreen;
+     background-color:blueviolet;
+     border: 2px solid aqua;
      border-radius: 5px;
 
 
@@ -288,18 +291,21 @@ input:focus{
    
    color: rgb(0, 0, 0);
    height: 60px;
-      background-color: rgba(118, 211, 32, 0.801);
+      background-color: rgb(18, 223, 144);
    border: 1px solid rgb(71, 156, 14);
    border-radius: 5px;
     
 
 }
 .output > div > h4{
+    font-family: 'Courgette', cursive;
+
     margin: 5px;
     border-radius: 3px;
     background-color: rgb(245, 255, 240);
     border: 1px solid rgb(17, 71, 6);
     padding: 4px;
+    font-weight: lighter;
 }
 
 
