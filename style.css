@@ -5,6 +5,7 @@
     align-items: center;
     display: flex;
 }
+
 body{
     display: block;
 }
@@ -12,6 +13,26 @@ body{
    
     text-align: center;
 }
+
+.img{
+       text-align: center;
+        border-radius:50%;
+        object-fit: cover;
+        margin: auto;
+        height: 100px;
+        width: 100px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        position: fixed;
+        padding: 50px;
+        display: none;
+    
+    
+}
+
+
 .mdiv .head h2{
     color: white;
     background-color: rgb(36, 145, 235);
