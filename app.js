@@ -1,6 +1,6 @@
 const addnow=document.getElementById('addnow')
 const outputdiv=document.getElementById('outputdiv')
-const img=document.querySelector('#img')
+const img=document.querySelector('.img')
 
 
 // get all products 
@@ -64,12 +64,14 @@ addnow.onsubmit=(e)=>{
 
  e.target.reset()
 
-
+img.style.display='block' 
  
+
  setTimeout(() => {
+   img.style.display='none'
     location.reload()
     
-   },400);
+   },1000);
 
 
    
